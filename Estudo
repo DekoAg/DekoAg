@@ -1,0 +1,75 @@
+#Estudo FSA linguagem Python 
+
+print("hello word")
+nome = 'Andre'
+idade = 19
+altura = 1.82
+
+print(nome)
+print(idade)
+print(altura)
+
+a, b, c = 5, 3.1, "hello"
+
+print(a)    
+print(b)
+print(c)
+
+numero = 12.5
+del numero
+
+a = 27
+b = 22.2
+c = 3j
+
+print(type(a))
+print(type(b))
+print(type(c))
+
+a = 23.3
+b = 2.0
+c = -17.5
+
+print(type(a))
+print(type(b))
+print(type(c))
+
+ord('A')    
+ord('X')
+ord('C') 
+
+num = 5 
+if num > 0: 
+    print("O número é positivo")
+print("Esse valor é sempre impresso, pois está fora do bloco if")
+
+x = 12
+y = 12
+if x > y:
+    print("x é maior do que y")
+elif x == y:
+    print("x e y  são iguais")
+
+x = 10
+y = 6 
+z = 6.0
+
+print("x + y = ", x+y)
+print("x - y = ", x-y)
+print("x * y = ", x*y)
+print("x / y = ", x/y)
+print("x / z = ", x/z)
+print("x // y = ", x//y)
+print("x ** y = ", x**y)
+
+#comparação 
+
+x = 12 
+y = 3
+
+print (x>y)
+print (x<y)
+print (x==y)
+print (x!=y)
+print (x>=y)
+print (x<=y)
